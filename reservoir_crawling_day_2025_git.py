@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Feb 12 2026
-
 @author: Kwihoon
 """
 """
-참고사이트 -> https://www.data.go.kr/data/15099919/openapi.do
+Website -> https://www.data.go.kr/data/15099919/openapi.do
+1. Get API Key in the Website
+2. Replace line 31, 32 with your own key
+3. Use your own fac_code, start date, end date 
 """
 
 from urllib.parse import urlencode, unquote, quote_plus 
@@ -65,4 +67,5 @@ def level_table(fac_code, startDt, endDt, stnIds, pageNo):
     times_list = np.array(times_list)
 
     table = np.column_stack([times_list, levels_list, rates_list])
+
     return table
