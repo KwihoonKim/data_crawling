@@ -9,6 +9,7 @@ Korea Meteorological Administration (KMA).
 The script allows users to automatically collect historical meteorological data 
 (e.g., precipitation, temperature, wind speed, humidity) for selected stations 
 and periods.
+
 ===============================================================================================
 
 <2.Features>
@@ -28,4 +29,5 @@ Korea Meteorological Administration (KMA)
 ASOS Data Portal: https://data.kma.go.kr
 
 Users must comply with the KMA data usage policy.
+
 ===============================================================================================
