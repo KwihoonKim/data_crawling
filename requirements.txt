@@ -1,4 +1,5 @@
-requests
+urllib
 pandas
+requests
 numpy
-tqdm
+bs4
