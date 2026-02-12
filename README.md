@@ -25,7 +25,11 @@ Data usage must comply with the Public Data Portal policy.
 
 <Repository Structure>
 ├── reservoir_crawler.py
+  
 ├── config.py
+
 ├── requirements.txt
+
 ├── example_output.csv
+
 └── README.md
